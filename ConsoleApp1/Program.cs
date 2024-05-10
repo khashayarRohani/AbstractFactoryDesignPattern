@@ -6,7 +6,7 @@ class Program
 {
     static public void Main()
     {
-
+        //here is the new method which pays attention to OCP  principle
 
         CreaditCard cardDetails = FactoryDesignPattern.GetCreaditCard("MoneyBack");
 
